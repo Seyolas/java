@@ -1,0 +1,29 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class NewClass {
+    public static void main(String[] args) {
+        
+        
+         Random r = new Random();
+        Scanner scanner = new Scanner(System.in);
+        int [] num ={3,3,4,4,4,4,1,0};
+        
+     int major=num[0];
+             int sayac=1;
+        for(int i=1; i<num.length;i++){
+            if(sayac==0){
+                sayac++;
+                major=num[i];
+            }
+            else if(major==num[i]){
+                sayac++;
+            }
+            else sayac--;
+             
+        }
+        System.out.println(major);
+    }
+}
