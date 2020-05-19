@@ -8,7 +8,7 @@ Nesne Tabanlı Programlamaya ait özellikleri kullanarak beyblade oyunu tasarlam
 
 3-En az bir tanesi private erişim belirleyicisi ile tanımlanmalıdır.
 
-4-Sınıfın constructor tanımlanmalıdır.
+4-Sınıfın constructor tanımlanmalıdır.(conructura sınıf özelliklerinin ilk değerlerini atayınız.)
 
 5-Belirlediğiniz bir fonksiyon için polymorphsim kullanılmalıdır.
 
